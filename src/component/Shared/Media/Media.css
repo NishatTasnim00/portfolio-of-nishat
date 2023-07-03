@@ -1,0 +1,44 @@
+.media ul li{
+  position: relative;
+  display: block;
+  color: #666;
+  font-size: 25px;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  background: #171515;
+  line-height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: .5s;
+}
+.media ul li:before{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  height: inherit;
+  width: inherit;
+  background: #ffffff;
+  border-radius: 50%;
+  transform: scale(.9);
+  z-index: -1;
+  transition: .5s;
+}
+.media ul li:hover:before{
+  filter: blur(3px);
+  transform: scale(1.2);
+  box-shadow: 0 0 15px #ffffff;
+}
+
+.media ul li:hover{
+  color: #ffffff;
+  background: #000;
+  box-shadow: 0 0 15px #ffffff;
+  text-shadow: 0 0 15px #ffffff;
+}
+
+p:hover{
+      text-shadow: 0 0 15px #ffffff;
+
+}

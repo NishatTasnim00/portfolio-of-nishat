@@ -43,11 +43,66 @@ const Contact = () => {
 			>
 				Contact Me
 			</h1>
-			<div className="flex flex-col-reverse lg:flex-row lg:justify-between">
+			<div className="flex flex-col-reverse  lg:flex-row lg:justify-between">
 				<ContactCard></ContactCard>
 				<div
-					className="lg:w-5/12 rounded-lg bg-gray-800 p-10 mx-8 lg:mx-0"
+					className="lg:w-5/12 rounded-lg bg-gray-800 p-10 mx-8 lg:mx-0 mb-10 lg:mb-0 hidden lg:block"
+					data-aos-lg
 					data-aos="fade-left"
+					data-aos-delay="30"
+					data-aos-duration="1000"
+				>
+					<form ref={form} onSubmit={sendEmail}>
+						<div className="form-control group">
+							<label className="label block">
+								<span className="label-text flex gap-2">
+									<BsPersonFill size={22} />
+									Name
+								</span>
+							</label>
+							<input
+								className="input input-bordered"
+								type="text"
+								name="user_name"
+							/>
+						</div>
+						<div className="form-control">
+							<label className="label block">
+								<span className="label-text">
+									<AiTwotoneMail size={22} />
+									Email
+								</span>
+							</label>
+							<input
+								className="input input-bordered"
+								type="email"
+								name="user_email"
+							/>
+						</div>
+						<div className="form-control">
+							<label className="label block">
+								<span className="label-text">
+									<AiFillMessage size={22} />
+									Message
+								</span>
+							</label>
+							<textarea
+								className="input input-bordered"
+								type="text"
+								name="message"
+							/>
+						</div>
+						<div className="flex justify-center pt-5">
+							<button className="btn btn-common" type="submit">
+								Send
+							</button>
+						</div>
+					</form>
+				</div>
+				<div
+					className="lg:w-5/12 rounded-lg bg-gray-800 p-10 mx-8 lg:mx-0 mb-10 lg:mb-0 lg:hidden"
+					data-aos-lg
+					data-aos="fade-up"
 					data-aos-delay="30"
 					data-aos-duration="1000"
 				>

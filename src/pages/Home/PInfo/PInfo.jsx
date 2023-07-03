@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
-import person from '../../../assets/about/person.jpg';
+// import person from '../../../assets/about/person.jpg';
+import person from '../../../assets/about/nishat.jpg';
+
 import './PInfo.css';
 import PersonalDetails from '../../../component/PersonalDetails/PersonalDetails';
 

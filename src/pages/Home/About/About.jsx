@@ -14,6 +14,7 @@ const About = () => {
 			</div>
 			<br />
 			{/* <TypeAnimation
+				className="text-gray-200"
 				sequence={[
 					"Hello, I'm Nishat Tasnim, a passionate and experienced web developer specializing in creating innovative and user-friendly websites. With a strong background in front-end and back-end development, I bring a unique blend of technical expertise and creative problem-solving skills to every project I undertake.",
 				]}

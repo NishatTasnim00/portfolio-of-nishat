@@ -1,6 +1,42 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+
 const Navbar = () => {
+	// const navItem = (
+	// 	<>
+	// 		<li>
+	// 			<NavLink to="/" className={isActive ? 'active' : 'default'}>
+	// 				Home
+	// 			</NavLink>
+	// 		</li>
+	// 		<li>
+	// 			<NavLink to="/about" className={isActive ? 'active' : 'default'}>
+	// 				About
+	// 			</NavLink>
+	// 		</li>
+	// 		<li>
+	// 			<NavLink to="/skill" className={isActive ? 'active' : 'default'}>
+	// 				Projects
+	// 			</NavLink>
+	// 		</li>
+	// 		<li>
+	// 			<NavLink to="/projects" className={isActive ? 'active' : 'default'}>
+	// 				Projects
+	// 			</NavLink>
+	// 		</li>
+	// 		<li>
+	// 			<NavLink className="default" disabled={true}>
+	// 				Blog
+	// 			</NavLink>
+	// 		</li>
+	// 		<li>
+	// 			<NavLink to="/contact" className={isActive ? 'active' : 'default'}>
+	// 				Contact
+	// 			</NavLink>
+	// 		</li>
+	// 	</>
+	// );
+
     const navItem = (
 			<>
 				<li>
@@ -20,22 +56,35 @@ const Navbar = () => {
 					</NavLink>
 				</li>
 				<li>
-					<NavLink to='/skill' className={(isActive) => (isActive ? 'active' : 'default')}>
+					<NavLink
+						to="/skill"
+						className={(isActive) => (isActive ? 'active' : 'default')}
+					>
 						Projects
 					</NavLink>
 				</li>
 				<li>
-					<NavLink to='/projects' className={(isActive) => (isActive ? 'active' : 'default')}>
+					<NavLink
+						to="/projects"
+						className={(isActive) => (isActive ? 'active' : 'default')}
+					>
 						Projects
 					</NavLink>
 				</li>
 				<li>
-					<NavLink  className={(isActive) => (isActive ? 'active' : 'default')} disable >
+					<NavLink
+						// className={(isActive) => (isActive ? 'active' : 'default')}
+						className="default"
+						disabled={true}
+					>
 						Blog
 					</NavLink>
 				</li>
 				<li>
-					<NavLink to='/contact' className={(isActive) => (isActive ? 'active' : 'default')}>
+					<NavLink
+						to="/contact"
+						className={(isActive) => (isActive ? 'active' : 'default')}
+					>
 						Contact
 					</NavLink>
 				</li>
@@ -75,9 +124,7 @@ const Navbar = () => {
 						{navItem}
 					</ul>
 				</div>
-				{/* <div className="">
-					<a className="btn">Button</a>
-				</div> */}
+			
 
 			</div>
 		);

@@ -9,10 +9,10 @@
  
 }
 .active{
-  @apply text-red-600
+  @apply text-gray-600
 }
 .default{
-  @apply text-gray-100
+  @apply text-red-900
 }
 @layer utilities{
   .title-text{

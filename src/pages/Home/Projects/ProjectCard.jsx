@@ -14,7 +14,9 @@ const ProjectCard = ({project}) => {
 			<>
 				<div
 					data-aos="zoom-in-up"
-					className="box h-80 w-96 hover:w-96 hover:h-screen object-contain transition duration-300 bg- hover:bg-neutral-300 group relative flex justify-center rounded-lg"
+					className="box h-80 w-96 hover:w-96 lg:hover:h-screen
+hover:h-[650px]
+					object-contain transition duration-300 bg- hover:bg-neutral-300 group relative flex justify-center rounded-lg"
 				>
 					<div className="absolute top-5 h-60 w-10/12 group-hover:-top-20 group-transition duration-300">
 						<Slider img1={img1} img2={img2} img3={img3}></Slider>
@@ -65,7 +67,7 @@ const ProjectCard = ({project}) => {
 									</a>
 								</div>
 
-								<a href={liveSite} className="lg:ml-36 btn btn-outline">
+								<a href={liveSite} className="ml-36 btn btn-outline ">
 									Live Site
 								</a>
 							</div>

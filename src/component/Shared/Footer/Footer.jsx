@@ -45,7 +45,7 @@ const Footer = () => {
 						</mask>
 					</defs>
 				</Wave>
-					<h1 className="text-gray-700 absolute top-28 left-7 lg:left-[40%] mx-auto">
+					<h1 className="text-gray-700 absolute top-28 left-7 lg:left-[37%] mx-auto">
 						&copy; 2023 Nishat Tasnim's Portfolio. All rights reserved.
 					</h1>
 			</div>

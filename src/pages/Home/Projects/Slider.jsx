@@ -14,14 +14,14 @@ return (
 		bullets={false}
 		interval={1000}
 	>
-		<figure className="absolute h-full w-full">
-			<img className="relative h-full w-full object-cover" src={img1} alt="" />
+		<figure className="absolute h-full w-full rounded-lg">
+			<img className="relative h-full w-full object-cover rounded-lg" src={img1} alt="" />
 		</figure>
-		<figure className="absolute h-full w-full">
-			<img className="relative h-full w-full object-cover" src={img2} alt="" />
+		<figure className="absolute h-full w-full rounded-lg">
+			<img className="relative h-full w-full object-cover rounded-lg" src={img2} alt="" />
 		</figure>
-		<figure className="absolute h-full w-full">
-			<img className="relative h-full w-full object-cover" src={img3} alt="" />
+		<figure className="absolute h-full w-full rounded-lg">
+			<img className="relative h-full w-full object-cover rounded-lg" src={img3} alt="" />
 		</figure>
 	</AutoplaySlider>
 );

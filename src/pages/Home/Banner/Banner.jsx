@@ -18,7 +18,8 @@ const Banner = () => {
 				<a
 					download
 					className="btn btn-common lg:mt-7"
-					href="../../../../public/Nishat_Tasnim's_Resume.pdf"
+					// href="../../../../public/Resume_of_Nishat_Tasnim.pdf"
+					href='../../../assets/Resume_of_Nishat_Tasnim.pdf'
 				>
 					Download Resume
 				</a>

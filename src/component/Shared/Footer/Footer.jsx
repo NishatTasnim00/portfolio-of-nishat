@@ -1,9 +1,12 @@
 import React from 'react';
-import './Footer.css'
+// import './Footer.css'
 import Wave from 'react-wavify';
+
+
+
 const Footer = () => {
     return (
-			<div className="bg-black relative">
+			<div className="bg-black relative -z-50">
 				{/* <div class="wave-container">
 					<svg
 						class="wave"
@@ -28,7 +31,7 @@ const Footer = () => {
 					</svg>
 				</div> */}
 
-				<Wave mask="url(#mask)" fill="#cbd5e1" opacity={0.5}>
+				<Wave mask="url(#mask)" fill="#1f2937" opacity={0.9}>
 					<defs>
 						<linearGradient id="gradient" gradientTransform="rotate(180)">
 							<stop offset="0" stopColor="white" />
@@ -45,7 +48,7 @@ const Footer = () => {
 						</mask>
 					</defs>
 				</Wave>
-					<h1 className="text-gray-700 absolute top-28 left-7 lg:left-[37%] mx-auto">
+					<h1 className="text-gray-500 absolute top-28 left-7 lg:left-[37%] mx-auto">
 						&copy; 2023 Nishat Tasnim's Portfolio. All rights reserved.
 					</h1>
 			</div>

@@ -43,10 +43,10 @@ const Contact = () => {
 			>
 				Contact Me
 			</h1>
-			<div className="flex flex-col-reverse  lg:flex-row lg:justify-between">
+			<div className="flex flex-col-reverse lg:flex-row lg:justify-between">
 				<ContactCard></ContactCard>
 				<div
-					className="lg:w-5/12 rounded-lg bg-gray-800 p-10 mx-8 lg:mx-0 mb-10 lg:mb-0 hidden lg:block"
+					className="lg:w-5/12 rounded-lg bg-gray-800  p-10 mx-8 lg:mx-0 mb-10 lg:mb-0 hidden lg:block"
 					data-aos-lg
 					data-aos="fade-left"
 					data-aos-delay="30"
@@ -56,7 +56,7 @@ const Contact = () => {
 						<div className="form-control group">
 							<label className="label block">
 								<span className="label-text flex gap-2">
-									<BsPersonFill size={22} />
+									<BsPersonFill size={25} />
 									Name
 								</span>
 							</label>
@@ -69,7 +69,7 @@ const Contact = () => {
 						<div className="form-control">
 							<label className="label block">
 								<span className="label-text">
-									<AiTwotoneMail size={22} />
+									<AiTwotoneMail size={25} />
 									Email
 								</span>
 							</label>
@@ -82,12 +82,12 @@ const Contact = () => {
 						<div className="form-control">
 							<label className="label block">
 								<span className="label-text">
-									<AiFillMessage size={22} />
+									<AiFillMessage size={25} />
 									Message
 								</span>
 							</label>
 							<textarea
-								className="input input-bordered"
+								className="input input-bordered min-h-[120px]"
 								type="text"
 								name="message"
 							/>
@@ -110,7 +110,7 @@ const Contact = () => {
 						<div className="form-control group">
 							<label className="label block">
 								<span className="label-text flex gap-2">
-									<BsPersonFill size={22} />
+									<BsPersonFill size={25} />
 									Name
 								</span>
 							</label>
@@ -123,7 +123,7 @@ const Contact = () => {
 						<div className="form-control">
 							<label className="label block">
 								<span className="label-text">
-									<AiTwotoneMail size={22} />
+									<AiTwotoneMail size={25} />
 									Email
 								</span>
 							</label>
@@ -136,7 +136,7 @@ const Contact = () => {
 						<div className="form-control">
 							<label className="label block">
 								<span className="label-text">
-									<AiFillMessage size={22} />
+									<AiFillMessage size={25} />
 									Message
 								</span>
 							</label>

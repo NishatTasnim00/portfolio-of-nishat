@@ -9,7 +9,7 @@ const PersonalDetails = () => {
 				<div >
 					<Fade cascade damping={.5} className="personalDetails-text">
 						<p>Nishat Tasnim</p>
-						<p>Front-End Web Developer</p>
+						<p>MERN Stack Developer</p>
 						<p>Dhaka, Bangladesh</p>
 						<p>BSc in Computer Science & Engineering</p>
 						<p>Jashore University of Science & Technology</p>

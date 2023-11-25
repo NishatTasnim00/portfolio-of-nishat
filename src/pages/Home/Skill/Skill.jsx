@@ -31,7 +31,7 @@ const Skill = () => {
 						data-aos-delay="30"
 						data-aos-duration="1000"
 					>
-						skills
+						Skills
 					</h1>
 					<div>
 						<h2 className="skills-text">Expertise</h2>
